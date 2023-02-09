@@ -1,0 +1,852 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.btn-outline-success.focus,
+.btn-outline-success:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 0%);
+}
+/* Navigation */
+.company-logo {
+  width: 245px;
+}
+.navigation{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.nav-titles {
+  margin-left: 5%;
+}
+/* Model */
+.modal-header {
+  border-bottom: 0px solid #dee2e6;
+}
+.modal-content {
+  background-color: #000000bf;
+}
+.modal-footer {
+  display: block;
+  -ms-flex-wrap: wrap;
+  text-align: center;
+  /* flex-wrap: wrap; */
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: center;
+  padding: 0.75rem;
+  border-top: 0px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+.close:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* MAIN-SEC */
+.market-mind-navigation {
+  padding: 10px 0;
+  border: none;
+}
+
+/* Home-Section-Start */
+.carousel-inner img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-indicators li {
+  display: none;
+}
+
+.details {
+  margin: 50px 0;
+}
+.banner-text {
+  position: absolute;
+  left: 8%;
+  top: 26%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  color: #fff;
+}
+.brandsub-head {
+  padding: 11px 195px 10px 20px;
+  background: #ebeffd3d;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 22px;
+  opacity: 0.8;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", bold;
+}
+.brand-mainhead {
+  font-family: "Bebas Neue", bold;
+  font-size: 65px;
+  margin-top: 3%;
+  line-height: 64px;
+}
+.mx-4 {
+  margin-right: 3.5rem !important;
+}
+.navigation .contact-btn {
+  background: linear-gradient(to bottom right, #af81f2, #4e17dc);
+  border-style: none;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 13px 25px;
+  font-size: 18px;
+  border-radius: 6px;
+  /* margin-left: 62px; */
+}
+.contact-btn:hover {
+  border: solid 1px #5822e2;
+  color: #5822e2;
+  background: transparent;
+}
+.nav-sec {
+  opacity: 0.8;
+  transition: all 0.4s;
+  padding-top: 5px;
+}
+.nav-sec:hover {
+  transition: all 0.4s;
+  opacity: 1;
+  color: #000000;
+}
+.collapse ul li a {
+  /* padding: 0 78px; */
+  font-weight: 500;
+}
+.contact-btn:active {
+  border: solid 1px #8758ff !important;
+  color: #5822e2 !important;
+  background: transparent !important;
+  transition: all 0.3s;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(40 167 69 / 0%) !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 0%) !important;
+}
+.nav-section {
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background-color: #ffffff;
+  border-bottom: solid 1px grey;
+}
+/* Client-Section-Start */
+.client-page {
+  border-radius: 14px;
+  box-shadow: 0px 11px 14px 1px #88888830;
+}
+.client-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-head {
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.client-img-1 {
+  width: 20%;
+  margin-top: 30px;
+}
+.client-img-2 {
+  width: 125px;
+  margin-top: 18px;
+}
+.client-img-3 {
+  width: 80px;
+}
+.client-img-4 {
+  width: 140px;
+  margin-top: 16px;
+}
+.client-img-5 {
+  width: 148px;
+  margin-top: 15px;
+}
+.client-img-6 {
+  width: 65px;
+}
+/* Client-Section-Start */
+/* About-Section-Start */
+.aboutus-img {
+  margin-top: 7%;
+}
+.about-1 {
+  width: 108%;
+}
+.like-img {
+  width: 28%;
+  margin: -10% 0 0 50%;
+}
+.aboutus-texthead-service {
+  font-weight: 600;
+  font-size: 20px;
+  color: #5822e2;
+}
+.aboutus-texthead {
+  font-weight: 600;
+  font-size: 16px;
+  color: #5822e2;
+}
+.aboutus-heading {
+  font-weight: 600;
+  font-size: 27px;
+}
+.aboutus-pageleft {
+  margin-top: 12%;
+}
+.aboutus-heading-service {
+  font-weight: 600;
+  margin-top: 9%;
+}
+.aboutus-para {
+  opacity: 0.7;
+}
+/* About-Section-End */
+/* Service-Section-Start */
+.service-imgs {
+  font-size: 66px;
+  margin-top: 10px;
+}
+.service-heading {
+  justify-content: center;
+  text-align: center;
+  margin-top: 6%;
+}
+.service-imgs-3 {
+  width: 30px;
+  margin-top: 10px;
+}
+.service-imgs-5 {
+  width: 70px;
+  margin-top: 10px;
+}
+.service-imgbox {
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 2px #8888883d;
+  padding: 20px;
+  scale: 1;
+  transition: all 0.3s;
+}
+.service-imgbox:hover {
+  scale: 1.1;
+  background: linear-gradient(to bottom right, #af81f2, #4e17dc);
+  color: #ffff;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.service-imgs:hover {
+  color: white;
+}
+.service-imgbox h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.servive-texthead-service {
+  font-weight: 600;
+  font-size: 16px;
+  color: #5822e2;
+}
+.service-mobile {
+  flex-wrap: nowrap;
+  /* margin-right: 8%; */
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+.service-imghead1 {
+  margin-top: 64px;
+  letter-spacing: 1px;
+}
+.service-imghead2 {
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+.service-imghead3 {
+  margin-top: 53px;
+  letter-spacing: 1px;
+}
+.service-imghead4 {
+  margin-top: 56px;
+  letter-spacing: 1px;
+}
+.service-imghead5 {
+  margin-top: 54px;
+  letter-spacing: 1px;
+}
+.service-imghead6 {
+  margin-top: 54px;
+}
+/* Service-Section-End */
+/* Contact-Section-Start */
+.contactus-right {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.mobile-img {
+  margin-left: 16%;
+}
+.contact-page {
+  background: #af81f3;
+}
+.contact-img {
+  width: 100%;
+}
+.form-sec {
+  margin: 6% 0% 0% 4%;
+}
+.details .contact-btn {
+  background: linear-gradient(to bottom right, #af81f2, #4e17dc);
+  border-style: none;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  border-radius: 6px;
+  margin-left: 62px;
+  padding: 18px 43px;
+  font-size: 16px;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+  outline: none;
+}
+.details {
+  background: #fff;
+  margin: 40px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 6% 10%;
+}
+.forms {
+  margin: 15px;
+}
+.text-boxes {
+  border-style: none;
+  border-bottom: solid 1px grey;
+  border-radius: 0;
+}
+.contactpage-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 17px;
+}
+.contactpage-heading-mind {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+.address-details ul li {
+  list-style: none;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+/* Contact-Section-End */
+/* Footer-Section-Start */
+
+.foot-sec3 span a i {
+  color: #fff;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ffffff73;
+  border-radius: 50px;
+}
+.social-medias {
+  border-radius: 40px;
+  /* border: solid 1px; */
+  transition: all 0.3s;
+  padding: 8px;
+}
+
+.all-icons {
+  font-size: 23px;
+  padding: 4px;
+  color: #fff;
+}
+.all-icons:hover {
+  color: #000000;
+  background-color: #fff;
+  transition: all 0.2s;
+  border-radius: 50px;
+}
+
+.mail {
+  vertical-align: middle;
+}
+.foot-sec .mail-id {
+  color: #ffff;
+  display: flex;
+}
+.foot-sec .call {
+  padding-top: 15px;
+  vertical-align: bottom;
+  color: #fff;
+}
+.foot-sec .mail-id span,
+.foot-sec .call span {
+  padding-right: 5%;
+}
+.foot-sec {
+  background: #08001c;
+  color: #ffffff;
+}
+.address-details {
+  border-bottom: solid 2px #707070;
+}
+.copyrights-sec {
+  letter-spacing: 1.5px;
+}
+.copyrights {
+  font-size: 16px;
+  opacity: 0.8;
+}
+/* Footer-Section-End */
+
+/* resposive */
+
+/* mobile responsive */
+@media screen and (max-width: 1024px) {
+  /* .contact-btn {
+    padding: 4px 5px 4px 5px;
+  } */
+  #navbarNav {
+    margin-left: -68px;
+  }
+  .client-img-1 {
+    width: 15%;
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+  .client-img-2 {
+    width: 76px;
+    margin-top: 18px;
+  }
+  .client-img-3 {
+    width: 60px;
+    margin-top: 16px;
+  }
+  .client-img-4 {
+    width: 89px;
+    margin-top: 16px;
+  }
+  .client-img-5 {
+    width: 116px;
+    margin-top: 15px;
+  }
+  .client-img-6 {
+    width: 42px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .form-sec {
+    margin: 0;
+  }
+  .details {
+    margin: 0px;
+  }
+  .service-mobile {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .brand-mainhead {
+    font-family: "Bebas Neue", bold;
+    font-size: 39px;
+    margin-top: 3%;
+}
+.aboutus-para {
+  font-size: 24px;
+}
+}
+/* tab-responsive */
+@media screen and (max-width: 768px) {
+  .main-sec {
+    overflow: hidden;
+  }
+  .nav-butn {
+    margin-left: 83%;
+    margin-top: -40px;
+  }
+  #navbarNav {
+    margin-left: 2px;
+  }
+  /* .navbar-collapse {
+    padding-left: 30%;
+  } */
+  .banner-text {
+    position: absolute;
+    left: 6%;
+    top: 18%;
+    z-index: 10;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    text-align: start;
+    color: #fff;
+  }
+  .brandsub-head {
+    padding: 9px 131px 8px 10px;
+    background: #ebeffd3d;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", bold;
+  }
+  .brand-mainhead {
+    font-family: "Bebas Neue", bold;
+    font-size: 39px;
+    margin-top: 3%;
+  }
+  .client-img-1 {
+    width: 13%;
+    margin-top: 30px;
+  }
+  .client-img-2 {
+    width: 82px;
+    margin-top: 18px;
+  }
+  .client-img-3 {
+    width: 61px;
+  }
+  .client-img-4 {
+    width: 92px;
+    margin-top: 16px;
+  }
+  .client-img-5 {
+    width: 106px;
+    margin-top: 15px;
+  }
+  .client-img-6 {
+    width: 43px;
+    margin-left: -23px;
+  }
+  /* .contact-btn {
+    padding: 4px 10px 4px 10px;
+    margin-left: -9px;
+  } */
+  .about-1 {
+    width: 63%;
+  }
+  .aboutus-pageleft {
+    margin-top: 10%;
+    /* margin-right: 11%; */
+  }
+  .like-img {
+    width: 19%;
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 0rem;
+  }
+  .aboutus-page2 img {
+    margin-left: 63%;
+  }
+  .aboutus-para {
+    font-size: 24px;
+  }
+  .service-mobile {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #service-box1 {
+    margin-bottom: 1%;
+  }
+  #service-box2 {
+    margin-bottom: 1%;
+  }
+  #service-box3 {
+    margin-bottom: 1%;
+  }
+  #service-box4 {
+    margin-bottom: 1%;
+  }
+  #service-box6 {
+    margin-bottom: 1%;
+  }
+  .service-imghead6 {
+    margin-bottom: 1%;
+  }
+  .service-imghead2 {
+    margin-top: 62px;
+  }
+  /* #contact-section {
+    margin-top: -57%;
+  } */
+  .contact-img {
+    width: 64%;
+    margin-left: 11%;
+  }
+  .foot-sec2 {
+    margin-left: 6%;
+    position: relative;
+    left: 48%;
+    bottom: 111px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-sec {
+    overflow: hidden;
+  }
+  .contact-btn {
+    background: linear-gradient(to bottom right, #af81f2, #4e17dc);
+    border-style: none;
+    /* padding: 5px 6px; */
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    /* font-size: 11px; */
+  }
+  .contactus-right {
+    margin: 0%;
+  }
+  .contact-btn:hover {
+    border: solid 1px #5822e2;
+    color: #5822e2;
+    font-size: 11px;
+    background: transparent;
+  }
+  .contact-btn:active {
+    border: solid 1px #8758ff !important;
+    color: #5822e2 !important;
+    font-size: 14px;
+    background: transparent !important;
+    transition: all 0.3s;
+  }
+  .banner-text {
+    position: absolute;
+    left: 6%;
+    top: 4%;
+    z-index: 10;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    text-align: start;
+    color: #fff;
+  }
+  .brandsub-head {
+    padding: 6px 26px 6px 14px;
+    background: #ebeffd3d;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 9px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", bold;
+  }
+  .brand-mainhead {
+    font-family: "Bebas Neue", bold;
+    font-size: 19px;
+    margin-top: 3%;
+    line-height: 35px;
+  }
+  /* .contact-btn {
+    margin-left: 0%;
+  } */
+  .name-logo {
+    padding-left: 7%;
+  }
+  .company-logo {
+    width: 173px;
+  }
+  .client-img-1 {
+    width: 45%;
+    margin-top: 0px;
+  }
+  .client-img-2 {
+    width: 34%;
+    margin-top: 12px;
+    margin-right: 10px;
+  }
+  .client-img-3 {
+    width: 43%;
+    margin-top: 29px;
+    margin-left: 1%;
+    padding: 0px;
+    position: relative;
+    height: 90px;
+  }
+  .client-img-4 {
+    width: 36%;
+    margin-top: 26px;
+    margin-left: 0%;
+    padding: 0px 1px 0px 0px;
+    position: relative;
+    height: 28%;
+    margin-right: 2%;
+  }
+  .client-img-5 {
+    width: 48%;
+    margin-top: 15px;
+  }
+  .client-img-6 {
+    width: 34%;
+    margin-top: 17px;
+    position: relative;
+    height: 106px;
+    margin-right: 1%;
+  }
+  .service-mobile {
+    flex-wrap: wrap;
+    margin-right: 0%;
+  }
+  .about-1 {
+    width: 100%;
+  }
+  /* .aboutus-img {
+    padding-top: 23%;
+    position: relative;
+    top: 35%;
+  } */
+  .aboutus-page2 {
+    margin-left: 0;
+    /* position: relative;
+    bottom: 106%;
+    left: 38%; */
+  }
+  .Aboutus-content {
+    margin-left: 0;
+    margin-top: -43%;
+  }
+  .nav-butn {
+    margin-left: 273px;
+    margin-top: -46px;
+  }
+  .header-contactbtn {
+    margin-left: -38px;
+  }
+  .nav-titles {
+    margin-left: 0%;
+  }
+  .aboutus-main {
+    margin-top: -13%;
+  }
+  /* .aboutus-texthead {
+    position: absolute;
+    top: 27%;
+  } */
+  .aboutus-heading {
+    font-weight: 600;
+    /* position: relative; */
+    font-size: 24px;
+    /* bottom: 190px; */
+    padding-top: 5%;
+  }
+  .aboutus-para {
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .likebutn {
+    margin-left: 74%;
+    display: none;
+  }
+  .service-imgbox {
+    margin-top: 3%;
+  }
+  .contactus-right {
+    margin-left: 0%;
+  }
+  .mobile-img {
+    margin-left: 0%;
+  }
+  .contact-img {
+    width: 100%;
+    margin: 0;
+  }
+  .details {
+    margin: 0px 9px 0 0px;
+    padding: 3% 0 4% 0;
+  }
+  .foot-sec1 {
+    margin: 0px 0px 0px -23px;
+    font-size: 14px;
+  }
+  .foot-sec2 {
+    font-size: 14px;
+    position: relative;
+    left: 0%;
+    bottom: 0px;
+  }
+  .foot-sec3 {
+    margin-top: 20px;
+  }
+  .icons {
+    justify-content: start;
+    margin-left: 5%;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* display: none; */
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
